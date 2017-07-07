@@ -25,13 +25,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LarryNF45RazorV3", "LarryNF
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9702EC41-3D3D-43E3-9DFF-D71FBE8F1D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Tests", "WebAPI.Tests\WebAPI.Tests.csproj", "{0C0636CB-876F-46A7-8C23-14550B23604E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0AC022D7-5714-4329-839C-616224F83347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0AC022D7-5714-4329-839C-616224F83347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC022D7-5714-4329-839C-616224F83347}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC022D7-5714-4329-839C-616224F83347}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9702EC41-3D3D-43E3-9DFF-D71FBE8F1D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9702EC41-3D3D-43E3-9DFF-D71FBE8F1D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9702EC41-3D3D-43E3-9DFF-D71FBE8F1D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9702EC41-3D3D-43E3-9DFF-D71FBE8F1D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0636CB-876F-46A7-8C23-14550B23604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0636CB-876F-46A7-8C23-14550B23604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0636CB-876F-46A7-8C23-14550B23604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0636CB-876F-46A7-8C23-14550B23604E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
